@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="70dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="60dp"
+    android:padding="2dp"
+    android:clipToPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="60dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_marker_bus"
+        android:layout_height="50dp" />
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:clipToPadding="true"
+        app:cardBackgroundColor="#0079C9"
+        android:layout_gravity="end"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true"
+        android:layout_height="wrap_content">
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:textSize="10sp"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:text="14s"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:paddingTop="1dp"-->
+            <!--android:paddingBottom="1dp"-->
+            <!--android:id="@+id/tv_update_time"-->
+            <!--android:paddingStart="2dp"-->
+            <!--android:paddingEnd="2dp"-->
+            <!--android:layout_height="wrap_content" />-->
+</androidx.cardview.widget.CardView>
+</FrameLayout>
